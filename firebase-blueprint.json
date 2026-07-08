@@ -1,0 +1,21 @@
+{
+  "collections": {
+    "leaderboard": {
+      "fields": {
+        "name": { "type": "string", "description": "Player nickname" },
+        "score": { "type": "number", "description": "Player's high score" },
+        "mode": { "type": "string", "description": "Game mode: classic or time" },
+        "level": { "type": "number", "description": "Level reached during the run" },
+        "timestamp": { "type": "timestamp", "description": "When the score was achieved" }
+      },
+      "indexes": [
+        {
+          "fields": [
+            { "field": "mode", "order": "ascending" },
+            { "field": "score", "order": "descending" }
+          ]
+        }
+      ]
+    }
+  }
+}

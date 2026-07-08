@@ -1,0 +1,6 @@
+{
+  "name": "Math Sum Elimination Puzzle",
+  "description": "An addictive, highly-polished math sum puzzle game where you select numbers to sum up to the target and clear the grid before it reaches the top. Includes Classic and Time modes, global leaderboards, and dual-language support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
